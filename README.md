@@ -15,14 +15,14 @@ After installing this packages , you are ready to run
 
 ## Notice
 aws_automation.py is all in one package for creating 
-*VPC creating
-*Assigning name to vpc
-*Enable public dns in vpc
-*Creating internet gateway
-*Creating routing table and public route
-*Creating subnet
-*Creating security group
-*Generating key for instance login
-*Creating instance with predefined security group 
-*Allocation Elastic IP to instance
+* VPC creating
+* Assigning name to vpc
+* Enable public dns in vpc
+* Creating internet gateway
+* Creating routing table and public route
+* Creating subnet
+* Creating security group
+* Generating key for instance login
+* Creating instance with predefined security group 
+* Allocating Elastic IP to instance
 
