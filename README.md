@@ -1,6 +1,8 @@
 # AWS_python
 AWS automation with python3 using boto3
 
+Recommend using with python3
+
 You can find [Here](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/ec2.html) for more info
 
 ## First of all
@@ -11,7 +13,16 @@ pip install boto3 --user
 pip install aws-cli --user
 pip install botocore
 ```
-After installing this packages , you are ready to run
+And configure aws-cli
+```
+aws configure
+```
+```
+AWS Access Key ID [****************]: < YOUT_AWS_ACCESS_KEY_ID >
+AWS Secret Access Key [****************]: < YOUT_AWS_SECRET_KEY >
+Default region name []: < REGION_NAME or you can leave blank >
+Default output format [None]: < leave blank >
+```
 
 ## Notice
 aws_automation.py is all in one package for creating 
