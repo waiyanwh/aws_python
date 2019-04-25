@@ -41,7 +41,7 @@ securitygroup.create_tags(Tags=[{"Key": "Name", "Value": "container_securitygrou
 print("Security group {} is created successfully".format(securitygroup.id))
 
 # create a file to store the key locally
-outfile = open('/home/wywh/key/ec2-keypair.pem', 'w')
+outfile = open('< PATH_TO_STORE_KEY >/ec2-keypair.pem', 'w')
 
 # call the boto ec2 function to create a key pair
 key_pair = ec2.create_key_pair(KeyName='ec2-keypair')
