@@ -1,5 +1,5 @@
 # AWS_python
-AWS automation with python3 using boto3
+AWS (EC2) auto creation with python3 using boto3
 
 Recommend using with python3
 
